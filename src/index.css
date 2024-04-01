@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+    /* max-width: fit-content; */
+    background-color: #04152df1;
+    /* margin: 0 auto; */
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+  }
+  

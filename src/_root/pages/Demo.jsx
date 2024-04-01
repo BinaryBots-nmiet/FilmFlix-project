@@ -1,6 +1,5 @@
 import { Button, Badge } from "@material-tailwind/react";
 import { FaDownload } from "react-icons/fa6";
-import Header from "./_root/Layouts/Header";
 import { MdError } from "react-icons/md";
 
 import {
@@ -13,14 +12,13 @@ import { useState } from "react";
 import { Alert } from "@material-tailwind/react";
 import { IoNotifications } from "react-icons/io5";
 
-const App = () => {
+const Demo = () => {
   const [open, setOpen] = useState(1);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
     <div className="w-full h-full min-h-screen">
-      <Header />
       <div className="mt-12 p-8">
         <Button
           size="lg"
@@ -87,4 +85,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Demo;
